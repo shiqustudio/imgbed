@@ -15,7 +15,7 @@ export function Header() {
   }, [theme])
   return (
     <div className="relative z-40 mx-auto flex max-w-[1280px] flex-row flex-nowrap items-center justify-between px-6 py-4">
-      <h1 className="text-2xl font-bold">图片上传</h1>
+      <h1 className="text-2xl font-bold">拾趣图片上传</h1>
       <div className="flex items-center gap-1">
         <Switch
           defaultSelected
@@ -33,7 +33,7 @@ export function Header() {
             setTheme(v ? 'light' : 'dark')
           }}
         ></Switch>
-        <a href="https://github.com/xhofe/imgbed" target="_blank">
+        <a href="https://github.com/shiqustudio/imgbed" target="_blank">
           <Github className="text-[26px] text-primary-500" />
         </a>
       </div>

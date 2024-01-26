@@ -12,7 +12,7 @@
 // and allow any header on requests. These headers must be present
 // on all responses to all CORS preflight requests. In practice, this means
 // all responses to OPTIONS requests.
-const allowUrls = ['https://img.nn.ci', 'http://localhost:5173']
+const allowUrls = ['https://img.funvip.live', 'http://localhost:5173']
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
